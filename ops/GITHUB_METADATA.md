@@ -2,24 +2,24 @@
 
 ## About
 
-Description: Agent Memory Governance Pack for AI coding agents: ready-to-use AGENTS.md and CLAUDE.md host instructions, contradiction-aware recall evals, and pitfall recovery rules for yantrikos/yantrikdb — the Rust-based cognitive memory engine with HNSW recall, temporal decay, and knowledge graph consolidation.
+Description: Yantrikdb AI context pack for Claude Code, Codex, Cursor, and Aider: AGENTS.md, CLAUDE.md, prompts, evals, pitfalls, and verification notes for yantrikos/yantrikdb.
 
-Homepage: https://doramagic.ai/projects/yantrikdb/
+Homepage: https://doramagic.ai/en/projects/yantrikdb/
 
 Topics:
 
+- yantrikdb
+- ai-context-pack
+- ai-coding-agent
+- agents-md
+- claude-code
+- codex
+- cursor
 - agent-memory
 - ai-agents
 - anthropic
-- claude-code
 - cognitive-memory
 - database
-- embeddings
-- hnsw
-- knowledge-graph
-- llm-memory
-- mcp
-- semantic-memory
 
 ## Interaction Settings
 
@@ -36,7 +36,7 @@ Social preview: upload-ready asset available at `assets/social-preview.svg`; rec
 ## Metadata Rationale
 
 - Name keeps the `doramagic-{project-slug}-pack` pattern.
-- Description must include the upstream keyword, capability-pack type, concrete user outcome, and host/use artifact keywords.
-- Topics must stay focused on upstream domain, agent host, use case, and Doramagic brand.
+- Description is unique per repository and frames the asset as a project-specific AI context pack, not a generic Doramagic backlink.
+- Topics combine upstream/project discovery terms with AI coding agent host terms.
+- Homepage points to the best currently available Doramagic project page for structured manual and SEO/GEO continuity.
 - Issue templates collect bug reports, usage questions, and pitfall reports as early traffic-quality signals.
-- Badges and low-pressure CTA are used to improve first-impression trust and feedback conversion without turning the README into a landing page.
