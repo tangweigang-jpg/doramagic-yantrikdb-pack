@@ -10,7 +10,7 @@ Languages: English | [中文](./README.zh-CN.md)
 
 ## The Problem
 
-This is an independent AI context resource pack for yantrikos/yantrikdb.: host instructions, prompt preview, evals, pitfalls, and recovery rules you can load into Claude Code, Codex, Cursor, Aider, and other AI coding agents.
+This is an independent AI context resource pack for yantrikos/yantrikdb: host instructions, prompt preview, evals, pitfalls, and recovery rules you can load into Claude Code, Codex, Cursor, Aider, and other AI coding agents.
 
 Your AI coding agent keeps acting on stale, contradicted, or hallucinated memory. It cannot tell you when its knowledge rotted, when two facts conflict, or when a "remembered" capability no longer exists. You have no way to verify recall, no way to bound decay, and no recovery path when the agent's memory is polluted.
 
