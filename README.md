@@ -1,4 +1,4 @@
-# yantrikdb Doramagic Pack
+# Yantrikdb AI Context Pack for Claude Code, Codex, Cursor, and Aider
 
 Pack version: `v1.0.0` · Last updated: `2026-05-14`
 
@@ -9,6 +9,8 @@ Pack version: `v1.0.0` · Last updated: `2026-05-14`
 Languages: English | [中文](./README.zh-CN.md)
 
 ## The Problem
+
+This is an independent AI context resource pack for yantrikos/yantrikdb.: host instructions, prompt preview, evals, pitfalls, and recovery rules you can load into Claude Code, Codex, Cursor, Aider, and other AI coding agents.
 
 Your AI coding agent keeps acting on stale, contradicted, or hallucinated memory. It cannot tell you when its knowledge rotted, when two facts conflict, or when a "remembered" capability no longer exists. You have no way to verify recall, no way to bound decay, and no recovery path when the agent's memory is polluted.
 
@@ -31,14 +33,8 @@ Quick links:
 
 ## When This Helps
 
-Use this pack when your AI agent needs to:
-- Add persistent memory with contradiction detection to a codebase (yantrikdb as the backing store)
-- Govern an agent's recall with temporal decay boundaries and decay-aware consolidation
-- Evaluate whether an agent's memory claims are fresh, contradicted, or decayed
-- Recover from a polluted memory state where the agent acts on stale or hallucinated facts
-- Integrate yantrikdb as an MCP server or Rust library into a project, with known failure modes documented
+Use this pack when you want an AI coding agent to understand the upstream project context, setup boundaries, common pitfalls, and verification steps before it edits files, installs dependencies, or claims the tool is ready.
 
-Do not use this pack as a substitute for reading the upstream docs or verifying installation in a sandbox first.
 
 ## What You Get
 
